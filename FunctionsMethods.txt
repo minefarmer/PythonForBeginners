@@ -1,0 +1,15 @@
+>>> abs(-5)
+5
+>>> abs(5)
+5
+7
+>>> open("test.txt", "w")
+<_io.TextIOWrapper name='test.txt' mode='w' encoding='cp1252'>
+>>> "a,b,c".split(",")
+['a', 'b', 'c']
+>>> "yelling at the top of my lungs".upper()
+'YELLING AT THE TOP OF MY LUNGS'
+>>> open("test.txt", "w".read()
+...
+... 
+>>> exit()
