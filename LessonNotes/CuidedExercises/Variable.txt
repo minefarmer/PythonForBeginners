@@ -1,0 +1,63 @@
+ 3 * 3
+9
+
+ 3 + 3 - (3 / 3)
+5.0
+
+ x = 8
+ x
+8
+
+ y = 5 - 2
+ y
+3
+
+ x - y
+5
+
+ a = x + y
+ a
+11
+
+ sound = "cluck"
+ sound = "moo"
+
+ tasty = "and she said,'Yum'"
+ tasty
+"and she said,'Yum'"
+
+ me = 'and I said, "Ew!"'
+ me
+'and I said, "Ew!"'
+
+ guote = 'and I said "Ew!"'
+
+ rich = 'and I said, "EW!"'
+ print(rich)
+and I said, "EW!"
+ 
+ guote = 'and I said "Ew!"'
+
+ quote = "Euh, 'merrpppp'"
+
+
+
+ b = 8
+ x = 8
+ b == x
+True
+
+ b = x == 8
+ b
+True
+ 
+ sound = "moo"
+ d = sound
+ d
+'moo'
+ d == sound == "moo"
+True
+ d
+'moo'
+ 
+
