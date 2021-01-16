@@ -120,3 +120,6 @@ NameError: name 'name_to_burgers' is not defined
  age_to_name
 {86: 'Me', 30: 'Sis', 50: 'Roger'}
  
+ list_of_dict = [{"a": 1}, {"b": 2}]
+ str_to_lst = {"Jack": [1,2,3]}
+ 
