@@ -61,3 +61,8 @@ True
 'moo'
  
 
+ x = 8
+ g = x == 5 and sound == "moo"
+ g
+False
+ 

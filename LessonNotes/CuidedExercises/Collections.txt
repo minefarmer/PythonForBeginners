@@ -1,0 +1,122 @@
+ [1, 2, 3]
+[1, 2, 3]
+ ["jane", "john", alex"]
+  File "<stdin>", line 1
+    ["jane", "john", alex"]
+                          ^
+SyntaxError: EOL while scanning string literal
+ ["jane", "john", "alex"]
+['jane', 'john', 'alex']
+ names = ['jane', 'john', 'alex']
+            0        1       2
+  File "<stdin>", line 1
+    0        1       2
+
+    {% comment %} How to get an item from a list. {% endcomment %}
+
+Getting the index of an item.
+     names [0]
+variable   index
+ (list)
+
+ names = ['jane', 'john', 'alex']
+ names
+['jane', 'john', 'alex']
+ names[0]
+'jane'
+
+ names[2]
+'alex'
+ names[1000]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IndexError: list index out of range
+ names[0] = "jen"
+ names
+['jen', 'john', 'alex']
+ "jen" in names
+True
+ "jack" in names
+False
+ 
+
+
+                {% comment %} Dictionaries {% endcomment %}
+ {"jane": 3, "john": 2}
+{'jane': 3, 'john': 2}
+ 
+ name_to_cookies = {"jane": 3, "john": 2}
+ name_to_cookies
+{'jane': 3, 'john': 2}
+ 
+{% comment %} How to get an item from a dictionary? {% endcomment %}
+
+name_to_cookies["jane"]
+    variable      key
+  (dictionary)
+
+ name_to_cookies = {"jane": 3, "john": 2}
+ name_to_cookies
+{'jane': 3, 'john': 2}
+ name_to_cookies
+{'jane': 3, 'john': 2}
+ 
+ name_to_cookies["jane"]
+3
+ name_to_cookies["john"]
+2
+ name_to_cookies["bob"]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+KeyError: 'bob'
+ name_to_cookies["jane"] = 10
+ name_to_cookies
+{'jane': 10, 'john': 2}
+ 
+
+
+              {% comment %} Guided Exercises {% endcomment %}
+
+ numbers = [10089, 75, 587]
+ numbers
+[10089, 75, 587]
+ numbers2 = [4,2,7]
+ strings = ["a","b","c"]
+ strings
+['a', 'b', 'c']
+ booleans = [False]
+ booleans
+[False]
+ numbers[0]
+10089
+ numbers[2]
+587
+ strings[2]
+'c'
+ {"Jack": False, "Jane": True, "Alex": True}
+{'Jack': False, 'Jane': True, 'Alex': True}
+ name_to_hungry = {"Jack": False, "Jane": True, "Alex": True}
+ 
+ name_to_hungry
+{'Jack': False, 'Jane': True, 'Alex': True}
+ 
+
+ names_to_burgers = {"Emily": 1, "Jenny": 2, "Neel": 3}
+ name_to_burgers
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'name_to_burgers' is not defined
+ names_to_burgers
+{'Emily': 1, 'Jenny': 2, 'Neel': 3}
+
+
+ names_to_names = {"jane": "Doe", "Tom": "Thumb"}
+ names_to_names
+{'jane': 'Doe', 'Tom': 'Thumb'}
+ 
+
+
+ age_to_name = {86: "Me", 30: "Sis", 50: "Roger"}
+ age_to_name
+{86: 'Me', 30: 'Sis', 50: 'Roger'}
+ 
